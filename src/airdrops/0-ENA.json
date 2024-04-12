@@ -1,0 +1,33 @@
+{
+	"info": {
+		"name": "Ethena Labs",
+		"symbol": "ENA",
+		"contractAddress": "0x57e114b691db790c35207b2e685d4a43181e6061",
+		"network": "ethereum",
+		"description": "Ethena's synthetic dollar, USDe, provides the crypto-native, scalable solution for money achieved by delta-hedging staked Ethereum collateral. USDe is fully-backed (subject to the discussion in the Risks section regarding events potentialy resulting in loss of backing) and free to compose throughout DeFi. USDe peg stability is supported through the use of delta hedging derivatives positions against protocol-held collateral.",
+		"image": "https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/CVUXA45HQVGPHBGAAJ3PQ4YAZU.jpeg"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": "2024-03-02T07:17:00.000Z",
+			"claimDateClose": "2024-05-02T07:17:00.000Z",
+			"claimDuration": "2 months"
+		},
+		"value": {
+			"airdroppedTokens": 3600,
+			"airdroppedTokenDecimals": 18,
+			"usdValueClaimOpen": 3018
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": true,
+			"derivsIncluded": ["Milady", "SchizoPosters", "RedactedRemillioBabies"],
+			"eligibilityURI": "https://claim.ethena.fi/"
+		}
+	},
+	"socials": {
+		"website": "https://ethena.fi/",
+		"twitter": "ethena_labs",
+		"discord": "HVfuYyNm8S",
+		"coingecko": "ethena"
+	}
+}
