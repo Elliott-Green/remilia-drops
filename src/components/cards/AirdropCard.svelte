@@ -10,9 +10,7 @@
 		<section class="px-4 pt-4">
 			<div class="grid grid-cols-2">
 				<!-- TITLE ICONS -->
-				<div
-					class="md:text-md flex items-center justify-start text-2xl font-extrabold"
-				>
+				<div class="md:text-md flex items-center justify-start text-2xl font-extrabold">
 					{thisDrop.info.name}
 				</div>
 				<div class="flex items-center justify-end gap-3">
@@ -36,8 +34,7 @@
 					{/if}
 					{#if thisDrop.socials.coingecko}
 						<a
-							href={'https://www.coingecko.com/en/coins/' +
-								thisDrop.socials.coingecko}
+							href={'https://www.coingecko.com/en/coins/' + thisDrop.socials.coingecko}
 							target="_blank"
 						>
 							<img
@@ -66,10 +63,7 @@
 						>
 					{/if}
 					{#if thisDrop.socials.twitter}
-						<a
-							href={'https://twitter.com/' + thisDrop.socials.twitter}
-							target="_blank"
-						>
+						<a href={'https://twitter.com/' + thisDrop.socials.twitter} target="_blank">
 							<img
 								class="h-6 w-6 md:h-8 md:w-8"
 								src="https://www.svgrepo.com/show/332182/twitter-circle.svg"
@@ -79,8 +73,7 @@
 					{/if}
 					{#if thisDrop.socials.discord}
 						<a
-							href={'https://discorthisDrop.com/invite/' +
-								thisDrop.socials.discord}
+							href={'https://discorthisDrop.com/invite/' + thisDrop.socials.discord}
 							target="_blank"
 						>
 							<img
@@ -114,17 +107,13 @@
 				{#if thisDrop.claim.dates.claimDateClose >= new Date() - 7 * 24 * 60 * 60 * 1000}
 					<aside class="alert variant-filled-warning">
 						<div class="alert-message">
-							<p class=" flex items-center justify-center font-bold">
-								Less than 7 days to claim
-							</p>
+							<p class=" flex items-center justify-center font-bold">Less than 7 days to claim</p>
 						</div>
 					</aside>
 				{:else if thisDrop.claim.dates.claimDateClose < new Date()}
 					<aside class="alert variant-filled-error">
 						<div class="alert-message">
-							<p class=" flex items-center justify-center font-bold">
-								Airdrop has closed.
-							</p>
+							<p class=" flex items-center justify-center font-bold">Airdrop has closed.</p>
 						</div>
 					</aside>
 				{/if}
@@ -135,17 +124,13 @@
 
 			<div class="grid grid-cols-2 justify-center">
 				{#if thisDrop.claim.value.airdroppedTokens}
-					<div class="flex items-center justify-center font-bold">
-						1 Milady : X tokens
-					</div>
+					<div class="flex items-center justify-center font-bold">1 Milady : X tokens</div>
 					<div class="flex items-center justify-center">
 						{thisDrop.claim.value.airdroppedTokens ?? 0}
 					</div>
 				{/if}
 				{#if thisDrop.claim.eligibility.isAllocationScaledPerNft}
-					<div class="flex items-center justify-center font-bold">
-						Scaled valuation?
-					</div>
+					<div class="flex items-center justify-center font-bold">Scaled valuation?</div>
 
 					<div class="flex items-center justify-center">
 						{thisDrop.claim.eligibility.isAllocationScaledPerNft}
@@ -153,17 +138,13 @@
 				{/if}
 
 				{#if thisDrop.claim.value.usdValueClaimOpen}
-					<div class="flex items-center justify-center font-bold">
-						Launch value
-					</div>
+					<div class="flex items-center justify-center font-bold">Launch value</div>
 					<div class="flex items-center justify-center">
 						${thisDrop.claim.value.usdValueClaimOpen ?? 0}~
 					</div>
 				{/if}
 				{#if thisDrop.claim.value.usdValueClaimNow && thisDrop.claim.value.usdValueClaimNow >= 1}
-					<div class="flex items-center justify-center font-bold">
-						Value now
-					</div>
+					<div class="flex items-center justify-center font-bold">Value now</div>
 					<div class="flex items-center justify-center">
 						${thisDrop.claim.value.usdValueClaimNow}~
 					</div>
@@ -171,25 +152,19 @@
 
 				{#if thisDrop.claim.value.usdValueClaimNow >= 1 && thisDrop.claim.value.usdValueClaimOpen >= 1}
 					{#if Math.round(((thisDrop.claim.value.usdValueClaimNow - thisDrop.claim.value.usdValueClaimOpen) / thisDrop.claim.value.usdValueClaimOpen) * 100) >= 1}
-						<div class="flex items-center justify-center font-bold">
-							Change %
-						</div>
+						<div class="flex items-center justify-center font-bold">Change %</div>
 						<div class="text-green-500">
 							{Math.round(
-								((thisDrop.claim.value.usdValueClaimNow -
-									thisDrop.claim.value.usdValueClaimOpen) /
+								((thisDrop.claim.value.usdValueClaimNow - thisDrop.claim.value.usdValueClaimOpen) /
 									thisDrop.claim.value.usdValueClaimOpen) *
 									100
 							)}%
 						</div>
 					{:else}
-						<div class="flex items-center justify-center font-bold">
-							Change %
-						</div>
+						<div class="flex items-center justify-center font-bold">Change %</div>
 						<div class="text-red-500">
 							{Math.round(
-								((thisDrop.claim.value.usdValueClaimNow -
-									thisDrop.claim.value.usdValueClaimOpen) /
+								((thisDrop.claim.value.usdValueClaimNow - thisDrop.claim.value.usdValueClaimOpen) /
 									thisDrop.claim.value.usdValueClaimOpen) *
 									100
 							)}%
@@ -198,35 +173,25 @@
 				{/if}
 
 				{#if thisDrop.claim.dates.claimDateOpen}
-					<div class="flex items-center justify-center font-bold">
-						Airdrop start
-					</div>
+					<div class="flex items-center justify-center font-bold">Airdrop start</div>
 					<div class="flex items-center justify-center">
-						{new Date(thisDrop.claim.dates.claimDateOpen).toLocaleString(
-							undefined,
-							{
-								day: '2-digit',
-								month: '2-digit',
-								year: 'numeric',
-								hour: '2-digit',
-								minute: '2-digit'
-							}
-						)}~
+						{new Date(thisDrop.claim.dates.claimDateOpen).toLocaleString(undefined, {
+							day: '2-digit',
+							month: '2-digit',
+							year: 'numeric',
+							hour: '2-digit',
+							minute: '2-digit'
+						})}~
 					</div>
-					<div class="flex items-center justify-center font-bold">
-						Airdrop end
-					</div>
+					<div class="flex items-center justify-center font-bold">Airdrop end</div>
 					<div class="flex items-center justify-center">
-						{new Date(thisDrop.claim.dates.claimDateClose).toLocaleString(
-							undefined,
-							{
-								day: '2-digit',
-								month: '2-digit',
-								year: 'numeric',
-								hour: '2-digit',
-								minute: '2-digit'
-							}
-						)}~
+						{new Date(thisDrop.claim.dates.claimDateClose).toLocaleString(undefined, {
+							day: '2-digit',
+							month: '2-digit',
+							year: 'numeric',
+							hour: '2-digit',
+							minute: '2-digit'
+						})}~
 					</div>
 					<div class="flex items-center justify-center font-bold">Duration</div>
 
@@ -240,8 +205,7 @@
 			<!-- DERIVS -->
 			<div class="flex items-center justify-center pb-4">
 				<div
-					class="grid grid-cols-{thisDrop.claim.eligibility.derivsIncluded
-						.length >= 4
+					class="grid grid-cols-{thisDrop.claim.eligibility.derivsIncluded.length >= 4
 						? 3
 						: thisDrop.claim.eligibility.derivsIncluded
 								.length} w-full gap-x-5 text-[9px] md:text-[11px]"

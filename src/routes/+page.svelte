@@ -8,11 +8,7 @@
 	let aggUSDClaimOpen: number = 0;
 	let aggUSDClaimNow: number = 0;
 
-	async function getTokenValue(
-		contractAddress,
-		network,
-		tokenAmount
-	): Promise<number> {
+	async function getTokenValue(contractAddress, network, tokenAmount): Promise<number> {
 		if (!contractAddress) return 0;
 		if (!tokenAmount) return 0;
 		const apiUrl = `https://api.coingecko.com/api/v3/simple/token_price/${network}?contract_addresses=${contractAddress}&vs_currencies=usd`;
@@ -27,9 +23,7 @@
 
 			if (response.ok) {
 				console.log(data[contractAddress.toLowerCase()].usd * tokenAmount);
-				return Math.round(
-					data[contractAddress.toLowerCase()].usd * tokenAmount
-				);
+				return Math.round(data[contractAddress.toLowerCase()].usd * tokenAmount);
 			} else {
 				return 0;
 			}

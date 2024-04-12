@@ -2,14 +2,7 @@
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	import { MetaTags } from 'svelte-meta-tags';
-	import {
-		computePosition,
-		autoUpdate,
-		flip,
-		shift,
-		offset,
-		arrow
-	} from '@floating-ui/dom';
+	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
@@ -53,8 +46,7 @@
 		cardType: 'summary_large_image',
 		title: title,
 		description: description,
-		image:
-			'https://images.mirror-media.xyz/publication-images/gowdU3gPX1hh2TjoTxrxL.png',
+		image: 'https://images.mirror-media.xyz/publication-images/gowdU3gPX1hh2TjoTxrxL.png',
 		imageAlt: description
 	}}
 />

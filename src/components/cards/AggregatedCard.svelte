@@ -46,12 +46,11 @@
 			<hr class="my-4" />
 			<!-- AGG CARD BODY -->
 			<div class=" text-sm">
-				Remelia Drops™ is an open-source initiative to collect data of airdrops
-				which target Milady and Remelia assets. Remelia Drops™ hopes to provide
-				the reader with an overview of the value created and the ability to
-				propose changes to static data. The thesis for the airdrops is that the
-				community is compromised of highly influential individuals who will talk
-				about the product on Twitter. Milady.
+				Remelia Drops™ is an open-source initiative to collect data of airdrops which target Milady
+				and Remelia assets. Remelia Drops™ hopes to provide the reader with an overview of the
+				value created and the ability to propose changes to static data. The thesis for the airdrops
+				is that the community is compromised of highly influential individuals who will talk about
+				the product on Twitter. Milady.
 			</div>
 			<!-- END AGG CARD BODY -->
 			<!-- DATA GRID-->
@@ -69,21 +68,15 @@
 				<div class="col-span-1 flex items-center justify-center">
 					${aggUSDClaimNow}
 				</div>
-				<div class="col-span-1 flex items-center justify-center font-bold">
-					Change %
-				</div>
+				<div class="col-span-1 flex items-center justify-center font-bold">Change %</div>
 				<div class="col-span-1 flex items-center justify-center">
 					{#if Math.round(((aggUSDClaimNow - aggUSDClaimOpen) / aggUSDClaimOpen) * 100) >= 1}
 						<div class="text-green-500">
-							{Math.round(
-								((aggUSDClaimNow - aggUSDClaimOpen) / aggUSDClaimOpen) * 100
-							)}%
+							{Math.round(((aggUSDClaimNow - aggUSDClaimOpen) / aggUSDClaimOpen) * 100)}%
 						</div>
 					{:else}
 						<div class="text-red-500">
-							{Math.round(
-								((aggUSDClaimNow - aggUSDClaimOpen) / aggUSDClaimOpen) * 100
-							)}%
+							{Math.round(((aggUSDClaimNow - aggUSDClaimOpen) / aggUSDClaimOpen) * 100)}%
 						</div>
 					{/if}
 				</div>
@@ -91,10 +84,10 @@
 			<!-- END DATA GRID-->
 			<div class="px-4 py-3 pt-4">
 				<div class="flex grid grid-cols-1 justify-center gap-y-2">
-					<div
-						class="md:text-md variant-outline-tertiary btn col-span-2 w-full text-[13px]"
-					>
-						Propose new or edited data to this repository
+					<div class="md:text-md variant-outline-tertiary btn col-span-2 w-full text-[13px]">
+						<a href="https://github.com/Elliott-Green/remilia-drops" target="_blank">
+							Propose new or edited data to this repository</a
+						>
 					</div>
 				</div>
 			</div>

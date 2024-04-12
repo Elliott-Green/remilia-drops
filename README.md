@@ -49,13 +49,13 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/Elliott-Green/skelekit-wagmiconnect.svg?style=for-the-badge
-[contributors-url]: https://github.com/Elliott-Green/skelekit-wagmiconnect/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Elliott-Green/skelekit-wagmiconnect.svg?style=for-the-badge
-[forks-url]: https://github.com/Elliott-Green/skelekit-wagmiconnect/network/members
-[stars-shield]: https://img.shields.io/github/stars/Elliott-Green/skelekit-wagmiconnect.svg?style=for-the-badge
-[stars-url]: https://github.com/Elliott-Green/skelekit-wagmiconnect/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Elliott-Green/skelekit-wagmiconnect.svg?style=for-the-badge
-[issues-url]: https://github.com/Elliott-Green/skelekit-wagmiconnect/issues
-[license-shield]: https://img.shields.io/github/license/Elliott-Green/skelekit-wagmiconnect.svg?style=for-the-badge
-[license-url]: https://github.com/Elliott-Green/skelekit-wagmiconnect/blob/main/LICENCE
+[contributors-shield]: https://img.shields.io/github/contributors/Elliott-Green/remilia-drops.svg?style=for-the-badge
+[contributors-url]: https://github.com/Elliott-Green/remilia-drops/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Elliott-Green/remilia-drops.svg?style=for-the-badge
+[forks-url]: https://github.com/Elliott-Green/remilia-drops/network/members
+[stars-shield]: https://img.shields.io/github/stars/Elliott-Green/remilia-drops.svg?style=for-the-badge
+[stars-url]: https://github.com/Elliott-Green/remilia-drops/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Elliott-Green/remilia-drops.svg?style=for-the-badge
+[issues-url]: https://github.com/Elliott-Green/remilia-drops/issues
+[license-shield]: https://img.shields.io/github/license/Elliott-Green/remilia-drops.svg?style=for-the-badge
+[license-url]: https://github.com/Elliott-Green/remilia-drops/blob/main/LICENCE
