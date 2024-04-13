@@ -59,7 +59,7 @@
 </script>
 
 <div
-	class="grid grid-cols-1 gap-6 px-4 py-3 text-center md:grid-cols-2 md:px-8 md:py-8 lg:grid-cols-3"
+	class="grid grid-cols-1 gap-6 px-4 py-3 text-center md:grid-cols-2 md:px-8 md:py-8 lg:grid-cols-3 rounded-xl"
 >
 	<AggregatedCard {aggUSDClaimOpen} {aggUSDClaimNow} />
 	{#each drops as d}

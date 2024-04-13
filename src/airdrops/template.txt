@@ -21,7 +21,16 @@
 		},
 		"eligibility": {
 			"isAllocationScaledPerNft": true, //@REMOVE_ME: Is airdrop scaled per nft holdings, or linear or null for unknown.
-			"derivsIncluded": ["Milady", "RedactedRemillioBabies", "SchizoPosters"], //@REMOVE_ME: The derivs included in the airdrop.
+			"derivsIncluded": [
+				"Milady",
+				"RedactedRemilioBabies",
+				"SchizoPosters",
+				"Radbro",
+				"PixeladyMaker",
+				"Yayo",
+				"OekakiMaker",
+				"MiladMaker"
+			], //@REMOVE_ME: The derivs included in the airdrop.
 			"eligibilityURI": "" //@REMOVE_ME: The link to check eligiblity.
 		}
 	},

@@ -1,14 +1,15 @@
 // should match with GC api
 enum chains {
-	ethereum = 'ethereum'
+	ethereum = 'ethereum',
+	cosmos = 'cosmos'
 }
 
 export interface Drops {
 	info: {
 		name: string;
-		symbol: string;
-		contractAddress: string;
-		network: chains;
+		symbol: string | null;
+		contractAddress: string | null;
+		network: chains | null;
 		description: string;
 		image: string;
 	};
@@ -16,24 +17,25 @@ export interface Drops {
 		dates: {
 			claimDateOpen: Date | null;
 			claimDateClose: Date | null;
-			claimDuration: string; // human readable duration
+			claimDuration: string | null; // human readable duration
 		};
 		value: {
-			airdroppedTokens: number; // assuming 1 NFT
-			airdroppedTokenDecimals: number; // 18
-			usdValueClaimOpen: string; // (1 token high day 1 * usd ) * total tokens
-			usdValueClaimNow: string; // (1 token current value * usd) * total tokens
+			airdroppedTokens: number | null; // assuming 1 NFT
+			airdroppedTokenDecimals: number | null; // 18
+			usdValueClaimOpen: string | null; // (1 token high day 1 * usd ) * total tokens
+			usdValueClaimNow: string | null; // (1 token current value * usd) * total tokens
 		};
 		eligibility: {
-			isAllocationScaledPerNft: boolean; // true: 2 nfts != 2 rewards / false: 2 nfts == 2 rewards
-			derivsIncluded: string[]; // anyone else included? don't bother calcing their positions for mvp,
-			eligibilityURI: string;
+			isAllocationScaledPerNft: boolean | null; // true: 2 nfts != 2 rewards / false: 2 nfts == 2 rewards
+			derivsIncluded: string[] | null; // anyone else included? don't bother calcing their positions for mvp,
+			eligibilityURI: string | null;
 		};
 	};
 	socials: {
-		website: string;
-		twitter: string;
-		discord: string;
-		coingecko: string;
+		website: string | null;
+		twitter: string | null;
+		discord: string | null;
+		telegram: string | null;
+		coingecko: string | null;
 	};
 }

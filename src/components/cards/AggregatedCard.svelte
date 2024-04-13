@@ -4,7 +4,7 @@
 </script>
 
 <div class="col-span-1">
-	<div class="bg-initial card overflow-hidden">
+	<div class="bg-initial card overflow-hidden rounded-lg">
 		<header class="">
 			<img
 				src="https://images.mirror-media.xyz/publication-images/gowdU3gPX1hh2TjoTxrxL.png"
@@ -28,14 +28,14 @@
 					</a>
 					<a href="https://pro.opensea.io/collection/milady" target="_blank">
 						<img
-							class="h-6 w-6 md:h-8 md:w-8"
+							class="h-6 w-6 md:h-7 md:w-7"
 							src="https://moralis.io/wp-content/uploads/2023/11/OpenSea.png"
 							alt="Openseas Logo"
 						/>
 					</a>
 					<a href="https://blur.io/collection/milady/bids" target="_blank">
 						<img
-							class="h-6 w-6 md:h-8 md:w-8"
+							class="h-6 w-6 md:h-7 md:w-7"
 							src="https://images.prismic.io/uphold/baa6107d-793d-4e5e-887a-8cbe1a79af02_BLUR%402x.png?auto=compress,format"
 							alt="Blur Logo"
 						/>
@@ -53,8 +53,9 @@
 				the product on Twitter. Milady.
 			</div>
 			<!-- END AGG CARD BODY -->
+			<hr class="my-4" />
 			<!-- DATA GRID-->
-			<div class="grid grid-cols-2 justify-center space-y-2">
+			<div class="grid grid-cols-2 justify-center space-y-3">
 				<div class="col-span-1 flex items-center justify-center font-bold">
 					Summed sold at launch
 				</div>
@@ -81,16 +82,18 @@
 					{/if}
 				</div>
 			</div>
+			<hr class="my-4" />
 			<!-- END DATA GRID-->
 			<div class="px-4 py-3 pt-4">
 				<div class="flex grid grid-cols-1 justify-center gap-y-2">
 					<div class="md:text-md variant-outline-tertiary btn col-span-2 w-full text-[13px]">
 						<a href="https://github.com/Elliott-Green/remilia-drops" target="_blank">
-							Propose new or edited data to this repository</a
+							Propose new airdrop or amend data</a
 						>
 					</div>
 				</div>
 			</div>
 		</section>
+		<footer class="pb-4" />
 	</div>
 </div>

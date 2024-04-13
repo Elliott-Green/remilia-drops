@@ -14,7 +14,7 @@
 <section class="">
 	<div class="container mx-auto flex min-h-screen items-center px-6 py-3">
 		<div class="mx-auto flex max-w-sm flex-col items-center text-center">
-			<p class="rounded-full bg-blue-50 p-3 text-sm font-medium text-blue-500 dark:bg-gray-800">
+			<p class="rounded-xl bg-blue-50 p-3 text-sm font-medium text-blue-500 dark:bg-gray-800">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
