@@ -11,7 +11,7 @@
 				which target Milady and Remilia assets. Remilia Drops™ hopes to provide
 				the reader with an overview of the value created and the ability to
 				propose changes to static data. The thesis for the airdrops is that the
-				community is compromised of highly influential individuals who will talk
+				community is comprised of highly influential individuals who will talk
 				about the product on Twitter. Milady.`;
 </script>
 
