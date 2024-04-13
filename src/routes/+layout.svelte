@@ -6,9 +6,9 @@
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
-	let title = '˚. ✦.˳·˖✶ Remelia Drops ✶ ⋆.✧̣̇˚.';
-	let description = `Remelia Drops™ is an open-source initiative to collect data of airdrops
-				which target Milady and Remelia assets. Remelia Drops™ hopes to provide
+	let title = '˚. ✦.˳·˖✶ Remilia Drops ✶ ⋆.✧̣̇˚.';
+	let description = `Remilia Drops™ is an open-source initiative to collect data of airdrops
+				which target Milady and Remilia assets. Remilia Drops™ hopes to provide
 				the reader with an overview of the value created and the ability to
 				propose changes to static data. The thesis for the airdrops is that the
 				community is compromised of highly influential individuals who will talk

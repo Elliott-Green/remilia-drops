@@ -1,0 +1,43 @@
+{
+	"info": {
+		"name": "Unicorn",
+		"symbol": "UNICORN",
+		"contractAddress": null,
+		"network": "cosmos",
+		"description": "There is no documentation or serious outline as to what Unicorn actually is. From searching the telegram CA on unicorn managed to discern that potentially it's their own blockchain. To interact with it, you apparently need a kepler wallet. This text can be amended once this can be discerned.",
+		"image": "https://unicorn.meme/img/uni-head.webp"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": "2024-04-02T00:00:00.000Z",
+			"claimDateClose": null,
+			"claimDuration": null
+		},
+		"value": {
+			"airdroppedTokens": null,
+			"airdroppedTokenDecimals": null,
+			"usdValueClaimOpen": null
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": null,
+			"derivsIncluded": [
+				"Milady",
+				"RedactedRemilioBabies",
+				"SchizoPosters",
+				"Radbro",
+				"PixeladyMaker",
+				"Yayo",
+				"OekakiMaker",
+				"MiladMaker"
+			],
+			"eligibilityURI": "https://unicorn.meme/dashboard#airdrop"
+		}
+	},
+	"socials": {
+		"website": "https://unicorn.meme",
+		"twitter": "unicornandmemes",
+		"discord": "",
+		"telegram": "https://t.me/TheUnicornStandard",
+		"coingecko": ""
+	}
+}
