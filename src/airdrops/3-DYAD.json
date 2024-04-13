@@ -9,7 +9,7 @@
 	},
 	"claim": {
 		"dates": {
-			"claimDateOpen": "2024-04-02T00:00:00.000Z",
+			"claimDateOpen": null,
 			"claimDateClose": null,
 			"claimDuration": null
 		},
