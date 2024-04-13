@@ -1,0 +1,34 @@
+{
+	"info": {
+		"name": "DYAD",
+		"symbol": "DYAD",
+		"contractAddress": "0x305b58c5f6b5b6606fb13edd11fbdd5e532d5a26",
+		"network": "ethereum",
+		"description": "DYAD is the first truly capital efficient decentralized stablecoin. Traditionally, two costs make stablecoins inefficient: surplus collateral and DEX liquidity. DYAD minimizes both of these costs through Kerosene, a token that lowers the individual cost to mint DYAD.",
+		"image": "https://assets-global.website-files.com/659491e0c78743e4d1693461/659493e50514b1fe8fe6cc59_grayscale_room.png"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": "2024-04-02T00:00:00.000Z",
+			"claimDateClose": null,
+			"claimDuration": null
+		},
+		"value": {
+			"airdroppedTokens": 3500,
+			"airdroppedTokenDecimals": 18,
+			"usdValueClaimOpen": 3465
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": null,
+			"derivsIncluded": ["Milady"],
+			"eligibilityURI": "https://app.dyadstable.xyz/?tab=airdrop"
+		}
+	},
+	"socials": {
+		"website": "https://www.dyadstable.xyz/",
+		"twitter": "0xDYAD",
+		"discord": "e3QZFuFjDc",
+		"telegram": "dyadstable",
+		"coingecko": null
+	}
+}

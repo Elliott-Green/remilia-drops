@@ -8,28 +8,68 @@
 	let aggUSDClaimOpen: number = 0;
 	let aggUSDClaimNow: number = 0;
 
-	async function getTokenValue(contractAddress, network, tokenAmount): Promise<number> {
+	const networkAPIMapping = [
+		{
+			ethereum: {
+				coingecko: 'ethereum',
+				geckoterminal: 'eth'
+			},
+			cosmos: {
+				coingecko: '',
+				geckoterminal: ''
+			}
+		}
+	];
+
+	async function getTokenValue(
+		contractAddress,
+		network,
+		tokenAmount,
+		coingeckoURI
+	): Promise<number> {
 		if (!contractAddress) return 0;
 		if (!tokenAmount) return 0;
-		const apiUrl = `https://api.coingecko.com/api/v3/simple/token_price/${network}?contract_addresses=${contractAddress}&vs_currencies=usd`;
-		try {
-			const response = await fetch(apiUrl, {
-				headers: {
-					'Cache-Control': 'max-age=600'
+
+		const coingeckoAPIURI = `https://api.coingecko.com/api/v3/simple/token_price/${network}?contract_addresses=${contractAddress}&vs_currencies=usd`;
+		const geckoterminalAPIURI = `https://api.geckoterminal.com/api/v2/simple/networks/${network === 'ethereum' ? 'eth' : network}/token_price/${contractAddress}`;
+
+		let stratURI = coingeckoURI !== null ? coingeckoAPIURI : geckoterminalAPIURI;
+		console.log(`querying ${contractAddress} ${stratURI} ${coingeckoURI}`);
+		const response = await fetch(stratURI, {
+			headers: {
+				'Cache-Control': 'max-age=600'
+			}
+		});
+		const responseData = await response.json();
+		if (stratURI === coingeckoAPIURI) {
+			try {
+				if (response.ok) {
+					return Number(
+						Math.round(responseData[contractAddress.toLowerCase()].usd * tokenAmount).toFixed(2)
+					);
+				} else {
+					return 0;
 				}
-			});
-
-			const data = await response.json();
-
-			if (response.ok) {
-				console.log(data[contractAddress.toLowerCase()].usd * tokenAmount);
-				return Math.round(data[contractAddress.toLowerCase()].usd * tokenAmount);
-			} else {
+			} catch (error: any) {
+				console.error('Error fetching token value:', error.message);
 				return 0;
 			}
-		} catch (error: Error) {
-			console.error('Error fetching token value:', error.message);
-			return 0;
+		}
+		if (stratURI === geckoterminalAPIURI) {
+			try {
+				if (response.ok) {
+					return Number(
+						Math.round(
+							responseData.data.attributes.token_prices[contractAddress.toLowerCase()] * tokenAmount
+						).toFixed(2)
+					);
+				} else {
+					return 0;
+				}
+			} catch (error: any) {
+				console.error('Error fetching token value:', error.message);
+				return 0;
+			}
 		}
 	}
 
@@ -47,7 +87,8 @@
 				element.claim.value.usdValueClaimNow = await getTokenValue(
 					element.info.contractAddress,
 					element.info.network,
-					element.claim.value.airdroppedTokens
+					element.claim.value.airdroppedTokens,
+					element.socials.coingecko
 				);
 				aggUSDClaimOpen += element.claim.value.usdValueClaimOpen;
 				aggUSDClaimNow += element.claim.value.usdValueClaimNow;

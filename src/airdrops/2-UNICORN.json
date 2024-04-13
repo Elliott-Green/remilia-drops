@@ -36,8 +36,8 @@
 	"socials": {
 		"website": "https://unicorn.meme",
 		"twitter": "unicornandmemes",
-		"discord": "",
-		"telegram": "https://t.me/TheUnicornStandard",
-		"coingecko": ""
+		"discord": null,
+		"telegram": "TheUnicornStandard",
+		"coingecko": null
 	}
 }

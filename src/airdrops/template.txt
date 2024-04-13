@@ -39,5 +39,6 @@
 		"twitter": "", //@REMOVE_ME: The twitter username without the URI.
 		"discord": "", //@REMOVE_ME: The discord join link without the URI.
 		"coingecko": "" //@REMOVE_ME: The coingecko parameter without the URI.
+		"geckoterminal": "" //@REMOVE_ME: The coingecko parameter without the URI.
 	}
 }

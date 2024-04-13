@@ -37,5 +37,6 @@ export interface Drops {
 		discord: string | null;
 		telegram: string | null;
 		coingecko: string | null;
+		geckoterminal: string | null;
 	};
 }
