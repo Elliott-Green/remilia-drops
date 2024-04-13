@@ -104,7 +104,8 @@
 						</div>
 					</aside>
 				{/if}
-				{#if thisDrop.claim.dates.claimDateClose >= new Date() - 7 * 24 * 60 * 60 * 1000}
+				{#if thisDrop.claim.dates.claimDateClose === null}
+				{:else if thisDrop.claim.dates.claimDateClose >= new Date() - 7 * 24 * 60 * 60 * 1000}
 					<aside class="alert variant-filled-warning">
 						<div class="alert-message">
 							<p class=" flex items-center justify-center font-bold">Less than 7 days to claim</p>
@@ -183,22 +184,22 @@
 							minute: '2-digit'
 						})}~
 					</div>
-					<div class="flex items-center justify-center font-bold">Airdrop end</div>
-					<div class="flex items-center justify-center">
-						{new Date(thisDrop.claim.dates.claimDateClose).toLocaleString(undefined, {
-							day: '2-digit',
-							month: '2-digit',
-							year: 'numeric',
-							hour: '2-digit',
-							minute: '2-digit'
-						})}~
-					</div>
-					<div class="flex items-center justify-center font-bold">Duration</div>
-
-					<div class="flex items-center justify-center">
-						{thisDrop.claim.dates.claimDuration}~
-					</div>
 				{/if}
+				<div class="flex items-center justify-center font-bold">Airdrop end</div>
+				<div class="flex items-center justify-center">
+					{thisDrop.claim.dates.claimDateClose ? new Date(thisDrop.claim.dates.claimDateClose).toLocaleString(undefined, {
+						day: '2-digit',
+						month: '2-digit',
+						year: 'numeric',
+						hour: '2-digit',
+						minute: '2-digit'
+					}) : "unknown"}~
+				</div>
+				<div class="flex items-center justify-center font-bold">Duration</div>
+
+				<div class="flex items-center justify-center">
+					{thisDrop.claim.dates.claimDuration}~
+				</div>
 			</div>
 			<!-- END DATA GRID -->
 			<hr class="my-4" />
@@ -208,7 +209,7 @@
 					class="grid grid-cols-{thisDrop.claim.eligibility.derivsIncluded.length >= 4
 						? 3
 						: thisDrop.claim.eligibility.derivsIncluded
-								.length} w-full gap-x-5 text-[9px] md:text-[11px]"
+								.length} w-full gap-x-5 gap-y-2 text-[9px] md:text-[11px]"
 				>
 					{#each thisDrop.claim.eligibility.derivsIncluded as ddd}
 						<div class=" text-md w-full rounded-md bg-purple-100">{ddd}</div>

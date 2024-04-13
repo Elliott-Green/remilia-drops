@@ -1,0 +1,42 @@
+{
+  "info": {
+    "name": "Unicorn",
+    "symbol": "UNICORN",
+    "contractAddress": "",
+    "network": "Cosmos",
+    "description": "ancient Windows 98 wizards, and neckbeard-fedora-wearing warriors",
+    "image": "https://unicorn.meme/img/uni-head.webp"
+  },
+  "claim": {
+    "dates": {
+      "claimDateOpen": "2024-04-02T00:00:00.000Z",
+      "claimDateClose": null,
+      "claimDuration": "unknown"
+    },
+    "value": {
+      "airdroppedTokens": null,
+      "airdroppedTokenDecimals": null,
+      "usdValueClaimOpen": null
+    },
+    "eligibility": {
+      "isAllocationScaledPerNft": null,
+      "derivsIncluded": [
+        "Yayo",
+        "Radbro",
+        "Milady",
+        "RedactedRemilioBabies",
+        "PixeladyMaker",
+        "SchizoPosters",
+        "OekakiMaker",
+        "MiladMaker"
+      ],
+      "eligibilityURI": "https://unicorn.meme/dashboard#airdrop"
+    }
+  },
+  "socials": {
+    "website": "https://unicorn.meme",
+    "twitter": "unicornandmemes",
+    "discord": "",
+    "coingecko": ""
+  }
+}
