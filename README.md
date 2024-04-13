@@ -8,7 +8,7 @@
 
 # Remilia Drops
 
-Remelia Drops™ is an open-source initiative to collect data of airdrops which target Milady and Remelia assets. Remelia Drops™ hopes to provide the reader with an overview of the value created and the ability to propose changes to static data.
+Remilia Drops™ is an open-source initiative to collect data of airdrops which target Milady and Remilia assets. Remilia Drops™ hopes to provide the reader with an overview of the value created and the ability to propose changes to static data.
 
 ## Airdrops
 
