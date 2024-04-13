@@ -14,7 +14,9 @@ Remilia Drops™ is an open-source initiative to collect data of airdrops which 
 
 Airdrops are labeled `n-ticker` where `n` is the incrementing identifier which orders the `.json` files into creation order, `ticker` is the ticker or expected ticker of the airdrop.
 
-When proposing a new change please increment the identifier and fill out as much of the `template.txt` as possible.
+`./src/airdrops/*.json`
+
+When proposing a new change please increment the identifier and fill out as much of the `template.txt` file as possible.
 
 I expect there will be a discussion on the pull request before it gets merged.
 

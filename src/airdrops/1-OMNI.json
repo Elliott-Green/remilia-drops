@@ -1,8 +1,8 @@
 {
 	"info": {
 		"name": "Omni Network",
-		"symbol": "OMNI",
-		"contractAddress": null,
+		"symbol": "",
+		"contractAddress": "",
 		"network": "ethereum",
 		"description": "The Omni protocol introduces a groundbreaking approach to blockchain security through the innovative use of restaked $ETH. This process involves validators and delegators working in tandem to verify protocol messages, manage reward and slashing events, and maintain the integrity of the validator set.",
 		"image": "https://lh7-us.googleusercontent.com/6kCljLysSibRB3WpK-sDqBYt87lOkkxnoG-m0-1KZtQxa_zbA_J9Z8-IefLqtOmUlCqI1IBS5gaHgvuSb3Gond429XlYjvdrd9SGQigQ2YHyxtiKpCaxXxX3uxKTHeTBOTQU8KcKpTyG07FNFQwNT6s"
@@ -14,12 +14,12 @@
 			"claimDuration": "45 days"
 		},
 		"value": {
-			"airdroppedTokens": null,
+			"airdroppedTokens": 62,
 			"airdroppedTokenDecimals": null,
 			"usdValueClaimOpen": null
 		},
 		"eligibility": {
-			"isAllocationScaledPerNft": null,
+			"isAllocationScaledPerNft": false,
 			"derivsIncluded": ["Milady", "RedactedRemillioBabies"],
 			"eligibilityURI": "https://omni.clique.tech"
 		}
@@ -28,7 +28,6 @@
 		"website": "https://omni.network/",
 		"twitter": "OmniFDN",
 		"discord": "bKNXmaX9VD",
-		"telegram": "OmniFDN",
 		"coingecko": "omni-network"
 	}
 }

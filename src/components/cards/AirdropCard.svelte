@@ -129,7 +129,7 @@
 						{thisDrop.claim.value.airdroppedTokens ?? 0}
 					</div>
 				{/if}
-				{#if thisDrop.claim.eligibility.isAllocationScaledPerNft}
+				{#if thisDrop.claim.eligibility.isAllocationScaledPerNft !== null}
 					<div class="flex items-center justify-center font-bold">Scaled valuation?</div>
 
 					<div class="flex items-center justify-center">
