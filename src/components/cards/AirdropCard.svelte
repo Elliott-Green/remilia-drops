@@ -172,8 +172,8 @@
 					{/if}
 				{/if}
 
+				<div class="flex items-center justify-center font-bold">Airdrop start</div>
 				{#if thisDrop.claim.dates.claimDateOpen}
-					<div class="flex items-center justify-center font-bold">Airdrop start</div>
 					<div class="flex items-center justify-center">
 						{new Date(thisDrop.claim.dates.claimDateOpen).toLocaleString(undefined, {
 							day: '2-digit',
@@ -183,7 +183,10 @@
 							minute: '2-digit'
 						})}~
 					</div>
+				{:else}
+					<div class="flex items-center justify-center">Unknown</div>
 				{/if}
+
 				<div class="flex items-center justify-center font-bold">Airdrop end</div>
 				{#if thisDrop.claim.dates.claimDateClose}
 					<div class="flex items-center justify-center">
@@ -198,8 +201,8 @@
 				{:else}
 					<div class="flex items-center justify-center">Unknown</div>
 				{/if}
-				<div class="flex items-center justify-center font-bold">Duration</div>
 
+				<div class="flex items-center justify-center font-bold">Duration</div>
 				{#if thisDrop.claim.dates.claimDuration}
 					<div class="flex items-center justify-center">
 						{thisDrop.claim.dates.claimDuration}~
