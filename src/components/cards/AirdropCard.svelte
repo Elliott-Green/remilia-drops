@@ -64,7 +64,7 @@
 					{/if}
 					{#if thisDrop.socials.discord}
 						<a
-							href={'https://discorthisDrop.com/invite/' + thisDrop.socials.discord}
+							href={'https://discord.com/invite/' + thisDrop.socials.discord}
 							target="_blank"
 						>
 							<img
