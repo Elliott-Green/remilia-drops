@@ -45,6 +45,22 @@ pnpm run lint
 pnpm run format
 ```
 
+## Contributions
+
+Fork this repo
+Create a branch
+Do some work
+Push to your fork
+Raise a PR into this repo
+
+## Envs
+
+Rename `.env.example` to `.env`
+
+### VITE_ENUMSTRING_GC_API_KEYS
+
+A comma seperated string of coin gecko api keys that are round-robin'ed between to increase request throughput.
+
 ## Licence
 
 Distributed under the MIT License. See LICENSE.txt for more information.

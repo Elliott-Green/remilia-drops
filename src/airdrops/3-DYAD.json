@@ -16,7 +16,7 @@
 		"value": {
 			"airdroppedTokens": 3500,
 			"airdroppedTokenDecimals": 18,
-			"usdValueClaimOpen": 3465
+			"usdValueClaimOpen": 126
 		},
 		"eligibility": {
 			"isAllocationScaledPerNft": null,
@@ -29,6 +29,6 @@
 		"twitter": "0xDYAD",
 		"discord": "e3QZFuFjDc",
 		"telegram": "dyadstable",
-		"coingecko": null
+		"coingecko": "kerosene"
 	}
 }
