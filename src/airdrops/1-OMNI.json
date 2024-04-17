@@ -1,8 +1,8 @@
 {
 	"info": {
 		"name": "Omni Network",
-		"symbol": "",
-		"contractAddress": "",
+		"symbol": "OMNI",
+		"contractAddress": "0x36e66fbbce51e4cd5bd3c62b637eb411b18949d4",
 		"network": "ethereum",
 		"description": "The Omni protocol introduces a groundbreaking approach to blockchain security through the innovative use of restaked $ETH. This process involves validators and delegators working in tandem to verify protocol messages, manage reward and slashing events, and maintain the integrity of the validator set.",
 		"image": "https://lh7-us.googleusercontent.com/6kCljLysSibRB3WpK-sDqBYt87lOkkxnoG-m0-1KZtQxa_zbA_J9Z8-IefLqtOmUlCqI1IBS5gaHgvuSb3Gond429XlYjvdrd9SGQigQ2YHyxtiKpCaxXxX3uxKTHeTBOTQU8KcKpTyG07FNFQwNT6s"
@@ -15,8 +15,8 @@
 		},
 		"value": {
 			"airdroppedTokens": 62,
-			"airdroppedTokenDecimals": null,
-			"usdValueClaimOpen": null
+			"airdroppedTokenDecimals": 18,
+			"usdValueClaimOpen": 2294
 		},
 		"eligibility": {
 			"isAllocationScaledPerNft": false,

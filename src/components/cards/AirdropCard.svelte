@@ -96,7 +96,7 @@
 			<!-- ALERTS -->
 			<div class="grid-cols-1 space-y-1 py-3 text-sm">
 				{#if !thisDrop.claim.value.usdValueClaimOpen}
-					<aside class="alert variant-filled-warning">
+					<aside class="alert variant-ghost-warning">
 						<div class="alert-message">
 							<p class=" flex items-center justify-center font-bold">
 								Airdrop value unknown or project is not live, check soon™
@@ -104,19 +104,29 @@
 						</div>
 					</aside>
 				{/if}
-				{#if thisDrop.claim.dates.claimDateClose === null}{:else if thisDrop.claim.dates.claimDateClose >= new Date() - 7 * 24 * 60 * 60 * 1000}
-					<aside class="alert variant-filled-warning">
+				{#if thisDrop.claim.dates.claimDateClose === null}
+					{:else if thisDrop.claim.dates.claimDateClose >= new Date() - 7 * 24 * 60 * 60 * 1000}
+					<aside class="alert variant-ghost-warning">
 						<div class="alert-message">
 							<p class=" flex items-center justify-center font-bold">Less than 7 days to claim</p>
 						</div>
 					</aside>
 				{:else if thisDrop.claim.dates.claimDateClose < new Date()}
-					<aside class="alert variant-filled-error">
+					<aside class="alert variant-ghost-error">
 						<div class="alert-message">
 							<p class=" flex items-center justify-center font-bold">Airdrop has closed.</p>
 						</div>
 					</aside>
 				{/if}
+				{#if new Date() >= new Date(thisDrop.claim.dates.claimDateOpen) && new Date() <= new Date(thisDrop.claim.dates.claimDateClose)}
+					
+				<aside class="alert variant-ghost-success">
+					<div class="alert-message">
+						<p class=" flex items-center justify-center font-bold">Airdrop is currently live!</p>
+					</div>
+				</aside>
+				{/if}
+
 			</div>
 			<!-- END ALERTS -->
 
