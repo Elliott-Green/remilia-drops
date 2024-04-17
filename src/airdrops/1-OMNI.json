@@ -21,7 +21,7 @@
 		"eligibility": {
 			"isAllocationScaledPerNft": false,
 			"derivsIncluded": ["Milady", "RedactedRemillioBabies"],
-			"eligibilityURI": "https://omni.clique.tech"
+			"eligibilityURI": "https://claims.omni.network/"
 		}
 	},
 	"socials": {
