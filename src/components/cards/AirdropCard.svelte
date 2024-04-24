@@ -63,10 +63,7 @@
 						>
 					{/if}
 					{#if thisDrop.socials.discord}
-						<a
-							href={'https://discord.com/invite/' + thisDrop.socials.discord}
-							target="_blank"
-						>
+						<a href={'https://discord.com/invite/' + thisDrop.socials.discord} target="_blank">
 							<img
 								class="h-6 w-6 md:h-8 md:w-8"
 								src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png"
@@ -104,8 +101,7 @@
 						</div>
 					</aside>
 				{/if}
-				{#if thisDrop.claim.dates.claimDateClose === null}
-					{:else if thisDrop.claim.dates.claimDateClose >= new Date() - 7 * 24 * 60 * 60 * 1000}
+				{#if thisDrop.claim.dates.claimDateClose === null}{:else if thisDrop.claim.dates.claimDateClose >= new Date() - 7 * 24 * 60 * 60 * 1000}
 					<aside class="alert variant-ghost-warning">
 						<div class="alert-message">
 							<p class=" flex items-center justify-center font-bold">Less than 7 days to claim</p>
@@ -119,14 +115,12 @@
 					</aside>
 				{/if}
 				{#if new Date() >= new Date(thisDrop.claim.dates.claimDateOpen) && new Date() <= new Date(thisDrop.claim.dates.claimDateClose)}
-					
-				<aside class="alert variant-ghost-success">
-					<div class="alert-message">
-						<p class=" flex items-center justify-center font-bold">Airdrop is currently live!</p>
-					</div>
-				</aside>
+					<aside class="alert variant-ghost-success">
+						<div class="alert-message">
+							<p class=" flex items-center justify-center font-bold">Airdrop is currently live!</p>
+						</div>
+					</aside>
 				{/if}
-
 			</div>
 			<!-- END ALERTS -->
 

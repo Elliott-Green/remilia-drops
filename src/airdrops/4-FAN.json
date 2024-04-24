@@ -1,0 +1,34 @@
+{
+	"info": {
+		"name": "Fantasy",
+		"symbol": "FAN",
+		"contractAddress": null,
+		"network": "blast",
+		"description": "Fantasy is a socialfi app + trading card game hybrid built on Blast, where you get to build a deck comprised of top twitter personalities to compete for FAN points and other prizes, like packs, or Blast gold.",
+		"image": "https://pbs.twimg.com/card_img/1781616482180337664/GlZkIQC0?format=jpg&name=medium"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": "2024-04-20T00:00:00.000Z",
+			"claimDateClose": null,
+			"claimDuration": null
+		},
+		"value": {
+			"airdroppedTokens": 4444,
+			"airdroppedTokenDecimals": 0,
+			"usdValueClaimOpen": 0
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": null,
+			"derivsIncluded": ["Milady", "RedactedRemilioBabies", "SchizoPosters"],
+			"eligibilityURI": "https://claim.fantasy.top/verify/eth"
+		}
+	},
+	"socials": {
+		"website": "https://www.fantasy.top/",
+		"twitter": "fantasy_top_",
+		"discord": null,
+		"telegram": "+A3vqpvutiG05YWU8",
+		"coingecko": null
+	}
+}
