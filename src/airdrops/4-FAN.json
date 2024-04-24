@@ -15,16 +15,12 @@
 		},
 		"value": {
 			"airdroppedTokens": 4444,
-			"airdroppedTokenDecimals": null,
-			"usdValueClaimOpen": null
+			"airdroppedTokenDecimals": 0,
+			"usdValueClaimOpen": 0
 		},
 		"eligibility": {
 			"isAllocationScaledPerNft": null,
-			"derivsIncluded": [
-				"Milady",
-				"RedactedRemilioBabies",
-				"SchizoPosters"
-			],
+			"derivsIncluded": ["Milady", "RedactedRemilioBabies", "SchizoPosters"],
 			"eligibilityURI": "https://claim.fantasy.top/verify/eth"
 		}
 	},
