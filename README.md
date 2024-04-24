@@ -47,11 +47,17 @@ pnpm run format
 
 ## Contributions
 
+### New airdrop
+
 Fork this repo
 Create a branch
 Do some work
 Push to your fork
 Raise a PR into this repo
+
+### Amending airdrop
+
+Please provide a link to the sourced corrected data!
 
 ## Envs
 
@@ -59,7 +65,7 @@ Rename `.env.example` to `.env`
 
 ### VITE_ENUMSTRING_GC_API_KEYS
 
-A comma seperated string of coin gecko api keys that are round-robin'ed between to increase request throughput.
+A comma seperated string of coin gecko api keys that are round-robin'ed between to increase request throughput. If you see your key here I'm not sorry.
 
 ## Licence
 

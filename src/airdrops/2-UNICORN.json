@@ -2,7 +2,7 @@
 	"info": {
 		"name": "Unicorn",
 		"symbol": "UNICORN",
-		"contractAddress": null,
+		"contractAddress": "unicorn1dvhj5vefx2g8gz3ek2yuxe0lfr76w9jnkpdsvk",
 		"network": "cosmos",
 		"description": "There is no documentation or serious outline as to what Unicorn actually is. From searching the telegram CA on unicorn managed to discern that potentially it's their own blockchain. To interact with it, you apparently need a kepler wallet. This text can be amended once this can be discerned.",
 		"image": "https://unicorn.meme/img/uni-head.webp"
@@ -14,8 +14,8 @@
 			"claimDuration": null
 		},
 		"value": {
-			"airdroppedTokens": null,
-			"airdroppedTokenDecimals": null,
+			"airdroppedTokens": 425652.6,
+			"airdroppedTokenDecimals": 18,
 			"usdValueClaimOpen": null
 		},
 		"eligibility": {

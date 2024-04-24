@@ -19,7 +19,7 @@
 			"usdValueClaimOpen": 0
 		},
 		"eligibility": {
-			"isAllocationScaledPerNft": null,
+			"isAllocationScaledPerNft": true,
 			"derivsIncluded": ["Milady", "RedactedRemilioBabies", "SchizoPosters"],
 			"eligibilityURI": "https://claim.fantasy.top/verify/eth"
 		}

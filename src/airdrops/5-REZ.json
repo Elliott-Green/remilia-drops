@@ -1,0 +1,34 @@
+{
+	"info": {
+		"name": "Renzo",
+		"symbol": "REZ",
+		"contractAddress": null,
+		"network": "ethereum",
+		"description": "April 26th marks the end of Renzo's Season 1 ezPoints campaign, where we've seen immense growth in active users and TVL. Renzo makes restaking ez for everyone! Some highlights from Season 1: $3.5b in deposits, 33.5% Restaking Market Share, Top 10 DeFi protocol by TVL, 250k+ users. Lastly, 2% of the initial 5% airdrop, or 0.1% of the total supply has been allocated to the following communities: Milady Maker, SchizoPosters",
+		"image": "https://pbs.twimg.com/media/GL339CsXgAAfvcn?format=jpg&name=4096x4096"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": "2024-05-02T00:00:00.000Z",
+			"claimDateClose": "2024-06-02T00:00:00.000Z",
+			"claimDuration": "1 month"
+		},
+		"value": {
+			"airdroppedTokens": null,
+			"airdroppedTokenDecimals": null,
+			"usdValueClaimOpen": null
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": true,
+			"derivsIncluded": ["Milady", "SchizoPosters"],
+			"eligibilityURI": "https://claim.renzoprotocol.com/"
+		}
+	},
+	"socials": {
+		"website": "https://www.renzoprotocol.com/",
+		"twitter": "RenzoProtocol",
+		"discord": "renzo",
+		"telegram": "RenzoProtocolChat",
+		"coingecko": "renzo-restaked-eth"
+	}
+}
