@@ -1,0 +1,34 @@
+{
+	"info": {
+		"name": "Infinex",
+		"symbol": "INFINEX",
+		"contractAddress": "",
+		"network": "ethereum",
+		"description": "XIP-21 proposes updates to Governance Points (GP) for the Infinex platform, specifically to improve the system's transparency and functionality. The proposal includes airdropping 20,000,000 GP to Milady Maker holders, distributing 2,000 GP per NFT to encourage their participation in the Infinex community. The total GP supply will be capped at 600,000,000, and 3% of the Patron NFT supply will be allocated to GP holders, establishing a fixed exchange rate. Although GP is not currently an ERC20 token and cannot be transferred between users, the proposal plans to update GP to be transferable after the 'Speedrun the Waitlist' (STW) event, eventually upgrading it to an ERC20 token. This means users will be able to trade their GP and, eventually, burn their GP in exchange for a Patron NFT.",
+		"image": "https://pbs.twimg.com/media/GNIg5hOb0AAguyQ?format=jpg&name=4096x4096"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": "2024-05-13T01:00:00.000Z",
+			"claimDateClose": "2024-06-13T01:00:00.000Z",
+			"claimDuration": "1 month"
+		},
+		"value": {
+			"airdroppedTokens": 2000,
+			"airdroppedTokenDecimals": 0,
+			"usdValueClaimOpen": 0
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": false,
+			"derivsIncluded": ["Milady"],
+			"eligibilityURI": ""
+		}
+	},
+	"socials": {
+		"website": "https://infinex.xyz/",
+		"twitter": "infinex_app",
+		"discord": "infinex",
+		"telegram": "",
+		"coingecko": ""
+	}
+}

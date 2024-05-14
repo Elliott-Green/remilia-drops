@@ -1,0 +1,34 @@
+{
+	"info": {
+		"name": "Aethir Cloud",
+		"symbol": "ATH",
+		"contractAddress": "",
+		"network": "ethereum",
+		"description": "There are various ATH token utilities that will provide unique benefits for our community members and token holders. Aethir's node sale's fully diluted value is over $2.7 billion, hinting at a strong potential market start for the Aethir token after the token generation event. Of course, anyone will be able to purchase the ATH utility token on the crypto exchanges that will list ATH, but Aethir Cloud Drop participants will definitely have a head start.",
+		"image": "https://pbs.twimg.com/media/GNjFhtVXsAAuL21?format=jpg&name=large"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": "2024-05-13T01:00:00.000Z",
+			"claimDateClose": "2024-06-13T01:00:00.000Z",
+			"claimDuration": "1 month"
+		},
+		"value": {
+			"airdroppedTokens": 0,
+			"airdroppedTokenDecimals": 0,
+			"usdValueClaimOpen": 0
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": false,
+			"derivsIncluded": ["Milady"],
+			"eligibilityURI": "https://airdrop.aethir.com/"
+		}
+	},
+	"socials": {
+		"website": "https://infinex.xyz/",
+		"twitter": "AethirCloud",
+		"discord": "aethircloud",
+		"telegram": "Aethir_Official",
+		"coingecko": ""
+	}
+}
