@@ -9,8 +9,8 @@
 	},
 	"claim": {
 		"dates": {
-			"claimDateOpen": "2024-06-18",
-			"claimDateClose": "2025-01-04",
+			"claimDateOpen": "Monday, June 17, 2024 11:00:00 AM GMT-07:00",
+			"claimDateClose": "Friday, January 3, 2025 11:00:00 AM GMT-08:00",
 			"claimDuration": "7 months"
 		},
 		"value": {
