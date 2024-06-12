@@ -1,0 +1,34 @@
+{
+	"info": {
+		"name": "ZK Sync",
+		"symbol": "ZK",
+		"contractAddress": "0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
+		"network": "ZKsync Era",
+		"description": "zkSync is a Layer-2 scaling solution for the Ethereum blockchain that employs zk-rollup technology to enhance scalability and efficiency. By bundling multiple transactions into a single cryptographic proof and processing them off-chain, zkSync significantly boosts Ethereum’s transaction throughput.  Notably, this approach helps alleviate network congestion and lowers gas fees, making it more cost-effective for users to interact with Ethereum smart contracts and send tokens. Despite its off-chain processing, zkSync maintains a high level of security by anchoring transaction finality to the Ethereum mainnet, ensuring the safety of user assets.",
+		"image": "https://miro.medium.com/v2/resize:fit:1000/1*KPHjRqGm5eU97ODDrhZtVg.jpeg"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": "Monday, June 17, 2024 11:00:00 AM GMT-07:00",
+			"claimDateClose": "Friday, January 3, 2025 11:00:00 AM GMT-08:00",
+			"claimDuration": "7 months"
+		},
+		"value": {
+			"airdroppedTokens": 8721,
+			"airdroppedTokenDecimals": 0,
+			"usdValueClaimOpen": 0
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": false,
+			"derivsIncluded": ["Milady"],
+			"eligibilityURI": "https://claim.zknation.io/"
+		}
+	},
+	"socials": {
+		"website": "https://zksync.io/",
+		"twitter": "zksync",
+		"discord": "7AUWNx2",
+		"telegram": "zksync",
+		"coingecko": "zksync"
+	}
+}

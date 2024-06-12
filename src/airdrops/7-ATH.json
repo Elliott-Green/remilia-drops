@@ -14,9 +14,9 @@
 			"claimDuration": "1 month"
 		},
 		"value": {
-			"airdroppedTokens": 0,
-			"airdroppedTokenDecimals": 0,
-			"usdValueClaimOpen": 0
+			"airdroppedTokens": 5652,
+			"airdroppedTokenDecimals": 18,
+			"usdValueClaimOpen": 282
 		},
 		"eligibility": {
 			"isAllocationScaledPerNft": false,
@@ -29,6 +29,6 @@
 		"twitter": "AethirCloud",
 		"discord": "aethircloud",
 		"telegram": "Aethir_Official",
-		"coingecko": ""
+		"coingecko": "aethir"
 	}
 }
