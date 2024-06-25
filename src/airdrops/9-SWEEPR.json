@@ -1,0 +1,34 @@
+{
+  "info": {
+    "name": "Sweepr",
+    "symbol": "SWEEPR",
+    "contractAddress": null,
+    "network": "ethereum",
+    "description": "Sweepr is an NFT liquidity flywheel designed to deliver value to creators and communities through provisioned liquidity and user incentivisation. ",
+    "image": "https://pbs.twimg.com/profile_banners/1706511904343220224/1710789499/1500x500"
+  },
+  "claim": {
+    "dates": {
+      "claimDateOpen": null,
+      "claimDateClose": null,
+      "claimDuration": null
+    },
+    "value": {
+      "airdroppedTokens": 125,
+      "airdroppedTokenDecimals": 0,
+      "usdValueClaimOpen": 0
+    },
+    "eligibility": {
+      "isAllocationScaledPerNft": null,
+      "derivsIncluded": ["Milady", "RedactedRemillioBabies", "SchizoPosters"],
+      "eligibilityURI": null
+    }
+  },
+  "socials": {
+    "website": "https://sweepr.art/",
+    "twitter": "sweepr_fi",
+    "discord": "hQD2rxVVxj",
+    "telegram": null,
+    "coingecko": null
+  }
+}
