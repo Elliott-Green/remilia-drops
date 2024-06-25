@@ -2,7 +2,7 @@
   "info": {
     "name": "Sweepr",
     "symbol": "SWEEPR",
-    "contractAddress": null,
+    "contractAddress": "0x9305D3D847e4cF950D43c99094a93314833Cf3A9",
     "network": "ethereum",
     "description": "Sweepr is an NFT liquidity flywheel designed to deliver value to creators and communities through provisioned liquidity and user incentivisation. ",
     "image": "https://pbs.twimg.com/profile_banners/1706511904343220224/1710789499/1500x500"
