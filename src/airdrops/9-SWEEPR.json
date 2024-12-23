@@ -14,9 +14,9 @@
 			"claimDuration": null
 		},
 		"value": {
-			"airdroppedTokens": 1250000,
+			"airdroppedTokens": 125,
 			"airdroppedTokenDecimals": 18,
-			"usdValueClaimOpen": 0
+			"usdValueClaimOpen": 0.08
 		},
 		"eligibility": {
 			"isAllocationScaledPerNft": false,
@@ -26,9 +26,9 @@
 	},
 	"socials": {
 		"website": "https://sweepr.art/",
-		"twitter": "zksync",
+		"twitter": "sweepr_fi",
 		"discord": "sweepr_fi",
 		"telegram": "",
-		"coingecko": null
+		"coingecko": "sweepr"
 	}
 }
