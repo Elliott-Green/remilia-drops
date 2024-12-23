@@ -26,7 +26,15 @@
 
 	// @dev: Loads all of the airdrop.jsons and calculates the current valuation of the airdrop.
 	onMount(async () => {
-		const files = import.meta.glob('../airdrops/*.json');
+		let files = import.meta.glob('../airdrops/*.json');
+
+		//@dev: regex the number out so the airdrops are sorted in order.
+		files = Object.entries(files).sort((a, b) => {
+			const A = parseInt(a[0].match(/(\d+)-/)[1], 10);
+			const B = parseInt(b[0].match(/(\d+)-/)[1], 10);
+			return A - B;
+		});
+		files = Object.fromEntries(files);
 
 		for (const path in files) {
 			const response = await files[path]();
