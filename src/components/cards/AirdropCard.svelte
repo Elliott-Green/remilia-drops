@@ -147,7 +147,7 @@
 						${thisDrop.claim.value.usdValueClaimOpen ?? 0}~
 					</div>
 				{/if}
-				{#if thisDrop.claim.value.usdValueClaimNow && thisDrop.claim.value.usdValueClaimNow >= 1}
+				{#if thisDrop.claim.value.usdValueClaimNow && thisDrop.claim.value.usdValueClaimNow >= 0.01}
 					<div class="flex items-center justify-center font-bold">Value now</div>
 					<div class="flex items-center justify-center">
 						${thisDrop.claim.value.usdValueClaimNow}~

@@ -60,11 +60,13 @@
 				});
 
 				let usdValueNow = await cgResponse.json();
-				element.claim.value.usdValueClaimNow = usdValueNow;
 
-				aggUSDClaimOpen += element.claim.value.usdValueClaimOpen;
-				aggUSDClaimNow += element.claim.value.usdValueClaimNow;
+				if (Number(element.claim.value.usdValueClaimNow)) {
+					element.claim.value.usdValueClaimNow = usdValueNow;
 
+					aggUSDClaimOpen += element.claim.value.usdValueClaimOpen;
+					aggUSDClaimNow += element.claim.value.usdValueClaimNow;
+				}
 				apiCounter++;
 			})
 		);
