@@ -61,12 +61,11 @@
 
 				let usdValueNow = await cgResponse.json();
 
-				if (Number(element.claim.value.usdValueClaimNow)) {
-					element.claim.value.usdValueClaimNow = usdValueNow;
+				element.claim.value.usdValueClaimNow = usdValueNow;
 
-					aggUSDClaimOpen += element.claim.value.usdValueClaimOpen;
-					aggUSDClaimNow += element.claim.value.usdValueClaimNow;
-				}
+				aggUSDClaimOpen += element.claim.value.usdValueClaimOpen;
+				aggUSDClaimNow += element.claim.value.usdValueClaimNow;
+
 				apiCounter++;
 			})
 		);

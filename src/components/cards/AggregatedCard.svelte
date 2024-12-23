@@ -67,7 +67,7 @@
 				</div>
 
 				<div class="col-span-1 flex items-center justify-center">
-					${aggUSDClaimNow}
+					${Number(aggUSDClaimNow).toFixed(2)}
 				</div>
 				<div class="col-span-1 flex items-center justify-center font-bold">Change %</div>
 				<div class="col-span-1 flex items-center justify-center">

@@ -4,7 +4,7 @@
 		"symbol": "CULT",
 		"contractAddress": "0x0000000000c5dc95539589fbD24BE07c6C14eCa4",
 		"network": "ethereum",
-		"description": "Trillion dollar infrared propaganda booklet happiness fiber optic prison cube mindset conversion. Your CULT awaits you here, whether bestowed upon or merely as presence of mind. To all those eligible, claim your CULT below. To those without a claim of their own, heed your participation and partake in whatever way you see fit. No matter your alignment, time is of the essence. Welcome to the now. Unclaimed beetle points expired 12-15-2024. Pre-sale buyers can claim until 12-31-2024.",
+		"description": "Trillion dollar infrared propaganda booklet happiness fiber optic prison cube mindset conversion. Your CULT awaits you here, whether bestowed upon or merely as presence of mind. To all those eligible, claim your CULT below. To those without a claim of their own, heed your participation and partake in whatever way you see fit. No matter your alignment, time is of the essence. Welcome to the now. Unclaimed beetle points expired 12-15-2024. Pre-sale buyers can claim until 12-31-2024. DEVELOPER NOTE: AIRDROP AMOUNT IS VARIABLE DEPENDING ON BEETLE POINTS, I HAVE MADE THIS CARD FOR 1 MILLION CULT, BUT YOUR ALLOCATION MAY BE HIGHER OR LOWER.",
 		"image": "https://pbs.twimg.com/media/Ge3g21lbgAAKIix?format=jpg&name=small"
 	},
 	"claim": {
@@ -14,9 +14,9 @@
 			"claimDuration": "7 days Beetle / 22 days Presale"
 		},
 		"value": {
-			"airdroppedTokens": "Varied",
-			"airdroppedTokenDecimals": "Varied",
-			"usdValueClaimOpen": "Varied"
+			"airdroppedTokens": 1000000,
+			"airdroppedTokenDecimals": 18,
+			"usdValueClaimOpen": 7723
 		},
 		"eligibility": {
 			"isAllocationScaledPerNft": true,
