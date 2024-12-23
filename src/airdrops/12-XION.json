@@ -16,7 +16,7 @@
 		"value": {
 			"airdroppedTokens": 100,
 			"airdroppedTokenDecimals": 18,
-			"usdValueClaimOpen": 500
+			"usdValueClaimOpen": null
 		},
 		"eligibility": {
 			"isAllocationScaledPerNft": false,
