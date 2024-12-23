@@ -1,0 +1,34 @@
+{
+	"info": {
+		"name": "Golden Celestial Ratio",
+		"symbol": "GCR",
+		"contractAddress": "7dGbPgUxKpB5qWiLRKcTQSC3om1fPzUpgGAFfwej9hXx",
+		"network": "solana",
+		"description": "The Golden Celestial Ratio is more than just a cryptocurrency; it is a movement driven by the divine harmony of the Golden Ratio. By holding GCR, members secure rewards through airdrops and become part of a community that offers emotional and financial protection. GCR also engages in cross-community airdrops to expand its reach and foster collaboration with other projects. These airdrops help to grow the GCR community by attracting members from other established communities. Angel airdrops reward loyalty and patience, ensuring that those who stay invested are compensated. By rewarding long-term holders, we foster a stable and committed community that believes in the projects long-term vision.",
+		"image": "https://pbs.twimg.com/profile_banners/1790870352144297984/1715961817/1500x500"
+	},
+	"claim": {
+		"dates": {
+			"claimDateOpen": null,
+			"claimDateClose": null,
+			"claimDuration": null
+		},
+		"value": {
+			"airdroppedTokens": null,
+			"airdroppedTokenDecimals": 9,
+			"usdValueClaimOpen": null
+		},
+		"eligibility": {
+			"isAllocationScaledPerNft": false,
+			"derivsIncluded": ["Milady"],
+			"eligibilityURI": "https://goldenratio.lol"
+		}
+	},
+	"socials": {
+		"website": "https://goldenratio.lol/",
+		"twitter": "goldenratiolol",
+		"discord": "xT68BJd8",
+		"telegram": "goldenratiolol",
+		"coingecko": "golden-celestial-ratio"
+	}
+}
